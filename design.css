@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+    /* border:2px solid red; */
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:100vh;
+    width:100vw;
+    /* border:2px solid red; */
+    background-color: #080c24;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    height:10vh;
+    width:100vw;
+    /* border:2px solid red; */
+    background-color: #ffffff;
+}
+.menu1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100%;
+    width:20%;
+    /* border:2px solid red; */
+}
+.menu2{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: row;
+    height:100%;
+    width:80%;
+    color:#080c24;
+    font-weight: 600;
+    /* border:2px solid red; */
+}
+.login{
+    /* border:2px solid red; */
+    padding: 10px;
+    height:36%;
+    width:10%;
+    border-radius: 4px;
+    color:#ffffff;
+    background-color: #080c24;
+}
+.menu2>a{
+    height:36%;
+    padding:8px;
+    transition: all 0.2s linear;
+    border-bottom:1px solid transparent;
+}
+.menu2>a:hover{
+    border-bottom:1px solid #080c24;
+}
+
+.logo{
+    /* border:2px solid red; */
+    height:8vh;
+    width:10vw;
+}
+.inner{
+    height:90vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    /* border:2px solid red; */
+}
+.inner1{
+    height:100%;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    /* border:2px solid red; */
+}
+.inner2{
+    height:100%;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    /* border:2px solid red; */
+}
+.moto{
+    font-weight: 600;
+    background-size: 100%;
+    background-image: linear-gradient(160deg,#cbf5ff,#42c9ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    font-size: 8vh;
+    /* color: white; */
+}
+.desc{
+    height: 10vh;
+    width: 65%;
+    /* border: 2px solid red; */
+    color:rgb(132, 200, 255);
+}
+.report{
+    height:50vh;
+    width:50vh;
+    border-left:1px solid rgba(255, 255, 255, 0.425); 
+    /* border-radius: 8px; */
+    /* background-color: #ffffff38; */
+}
